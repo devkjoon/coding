@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+}
+
+body {
+    background-color: #e9c46a;
+}
+
+header {
+    padding: 20px;
+    background-color: #2a9d8f;
+    border: 5px solid #254653;
+    color: #eae2b7;
+    padding: 0.7em;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+    margin-left: 25px;
+}
+
+header div {
+    float: right;
+    padding-top: 15px;
+    margin-right: 20px;
+}
+
+header.header li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    flex-direction: row;
+}
